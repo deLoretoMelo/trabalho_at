@@ -97,7 +97,7 @@ cadeias_d = ['aaaaabbbba', 'ab', 'abab', 'ababab', 'abababab']
 automato4.questao_1(automato4, cadeias_d)
 
 #automato referente a questão 2:
-estados_questao_2 = ['q0', 'q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10', 'q11']
+estados_questao_2 = ['q0', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10', 'q11']
 alfabeto_questao_2 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 func_transicao_questao_2 = {
     ('q0', 'c'): 'q2',
