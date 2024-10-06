@@ -1,3 +1,10 @@
+# Alunos:
+# Eduardo Fernandes Albuquerque
+# João Pedro Vasconcelos de Lima
+# Ladielma Carina Santos Teixeira
+# Marcelo Malcher Gillet de Loreto Melo
+# Virgilio Cardoso Dantas Neto
+
 #código referente a questão 2
 
 class Automato_Questao_2:
