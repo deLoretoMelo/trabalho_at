@@ -1,0 +1,12 @@
+Trabalho_2
+
+Automato: 
+Para a implementação dos autômatos da questão 1, utilizando a linguagem de programação python, o autômato foi criado a partir de um dicionário, onde suas chaves são tuplas, com o primeiro valor sendo o estado e o segundo o símbolo do alfabeto, formando assim a função de transição de tal estado, o valor de chave correspondo ao próximo estado que a função de transição leva. Os estados, alfabeto e estados finais foram implementados como listas e o estado inicial como uma string. Após a criação do autômato, é instanciada uma variável para obter o objeto "Automato" e uma outra variável para a linguagem que o autômato irá aceitar ou não.
+
+Para o autômato aceitar ou não a linguagem, foi criada uma classe para instanciar o objeto autômato e ter suas funções, em python para as classes, o construtor precisar ser iniciado como "def __init__()" e dentro dos parênteses são colocados os parâmetros do construtor. 
+
+Ainda na classe, existe a função de execução, que recebe uma cadeia e irá percorrer cada símbolo da cadeia, verificar se é do alfabeto, caso não seja, acusará um erro, se o estado atual e o símbolo formam uma função de transição, caso seja verdade o estado atual é atualizado e o código segue em frente, caso seja falso, um erro de chave é acusado. Após essas etapas, será visto se o estado atual é final ou não, caso seja, a função retornará verdadeiro, e a cadeia será aceita, caso não seja, a função retornará falso, e que a cadeia não foi aceita.
+
+Além da função de execução, também foi criada a função "questao_1", que recebe um autômato e uma cadeia. Ela serve para rodar e testar as cadeias com o autômato implementado, além de formatar a resposta que saíra no console.
+
+Para a implementação da questão 2
