@@ -70,18 +70,16 @@ class Automato_Questao_2:
             return False
         
     #função para formatar as chamadas de execução do automato
-    def questao_2(self, automato, cadeias):
+    def questao_2(self, automato, cadeia):
         print("")
         print("")
-        for cadeia in cadeias:
-            print(f"Cadeia: {cadeia}")
-            execucao = automato.executar(cadeia)
-            #Verifica se a cadeia foi aceita ou rejeitada
-            if(execucao):
-                pass
-            else:
-                print(f"A cadeia '{cadeia}' foi rejeitada")
-            print("")
+        print(f"Cadeia: {cadeia}")
+        execucao = automato.executar(cadeia)
+        #Verifica se a cadeia foi aceita ou rejeitada
+        if(execucao):
+            pass
+        else:
+            print(f"A cadeia '{cadeia}' foi rejeitada")
         print("")
         print("")
     

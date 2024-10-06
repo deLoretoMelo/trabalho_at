@@ -77,7 +77,7 @@ cadeias_c = ['aaaab', 'ab', 'abab', 'ababab', 'abababab']
 automato3.questao_1(automato3, cadeias_c)
 
 # letra d:
-estados_d = ['q1', 'q2', 'q3', 'q5']
+estados_d = ['q0', 'q1', 'q2', 'q3']
 alfabeto_d = ['a', 'b', 'c']
 func_transicao_d = {
     ('q0', 'a'): 'q1',
@@ -91,7 +91,7 @@ func_transicao_d = {
     ('q2', 'c'): 'q2'
 }
 estado_inicial_d = 'q0'
-estado_final_d = ['q1', 'q2', 'q3', 'q4']
+estado_final_d = ['q1', 'q2', 'q4']
 automato4 = at.Automato(estados_d, alfabeto_d, func_transicao_d, estado_inicial_d, estado_final_d)
 cadeias_d = ['aaaaabbbba', 'ab', 'abab', 'ababab', 'abababab']
 automato4.questao_1(automato4, cadeias_d)
@@ -111,24 +111,17 @@ func_transicao_questao_2 = {
     ('q9', 'o'): 'q10',
     ('q10', 'r'): 'q11',
 }
-cadeias_questao_2 = ["""O computador é uma máquina capaz de variados tipos de tratamento automático de
+cadeia_questao_2 = """O computador é uma máquina capaz de variados tipos de tratamento automático de
  informações ou processamento de dados. Entende-se por computador um sistema físico que
  realiza algum tipo de computação. Assumiu-se que os computadores pessoais e laptops são
  ícones da era da informação. O primeiro computador eletromecânico foi construído por
  Konrad Zuse (1910–1995). Atualmente, um microcomputador é também chamado
- computador pessoal ou ainda computador doméstico.""", """O computador é uma máquina capaz de variados tipos de tratamento automático de""", 
- """informações ou processamento de dados. Entende-se por computador um sistema físico que""", """realiza algum tipo de computação. Assumiu-se que os computadores pessoais e laptops são""", """ícones da era da informação. O primeiro computador eletromecânico foi construído por""", """Konrad Zuse (1910–1995). Atualmente, um microcomputador é também chamado""", """computador pessoal ou ainda computador doméstico.""", """O computador é uma máquina capaz de variados tipos de tratamento automático de""", """informações ou processamento de dados. Entende-se por computador um sistema físico que""", """realiza algum tipo de computação. Assumiu-se que os computadores pessoais e laptops são""", """ícones da era da informação. O primeiro computador eletromecânico foi construído por""", """Konrad Zuse (1910–1995). Atualmente, um microcomputador é também chamado""", """computador pessoal ou ainda computador doméstico.""", """O computador é uma máquina capaz de variados tipos de tratamento automático de""", """informações ou processamento de dados. Entende-se por computador um sistema físico que""", """realiza algum tipo de computação. Assumiu-se que os computadores pessoais e laptops são""", """ícones da era da informação. O primeiro computador eletromecânico foi construído por""", """Konrad Zuse (1910–1995). Atualmente, um microcomputador é também chamado""", 
- """computador pessoal ou ainda computador doméstico.""", 
- """O computador é uma máquina capaz de variados tipos de tratamento automático de""", 
- """informações ou processamento de dados. Entende-se por computador um sistema físico que""", 
- """realiza algum tipo de computação. Assumiu-se que os computadores pessoais e laptops são""", 
- """ícones da era da informação. O primeiro computador eletromecânico foi construído por""", 
- """Konrad Zuse (1910–1995). Atualmente, um microcomputador é também"""]
+ computador pessoal ou ainda computador doméstico."""
 estado_inicial_questao_2 = 'q0'
 estado_final_questao_2 = ['q0', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10', 'q11']
 automato_questao_2 = at2.Automato_Questao_2(estados_questao_2, alfabeto_questao_2, func_transicao_questao_2, estado_inicial_questao_2, estado_final_questao_2)
 
-automato_questao_2.questao_2(automato_questao_2, cadeias_questao_2)
+automato_questao_2.questao_2(automato_questao_2, cadeia_questao_2)
 
 # questao 3:
 estados_questao_3 = ['q0', 'q1', 'q2', 'q3', 'q4']
