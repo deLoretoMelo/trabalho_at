@@ -94,9 +94,9 @@ class Transdutor:
     def questao_3(self):
         #Um menu para o usuário escolher entre colocar moedas ou fazer um teste de estresse, e explicação de como a máquina funciona
         print("\n\n")
-        print("Bem vindo à máquina de transdução, ao colocar moedas, a máquina irá se uma lata de refrigerante irá sair ou não, se for 0, não saíra, caso contrário, sairá")
-        print("As moedar podem ser de 25, 50 ou de 100 centavos, e cada vez que for completado 100 centavos, uma lata de refrigerante sairá")
-        print("A máquina funciona da seguinte forma: você pode colocar as moedas ou fazer um teste de estresse")
+        print("Bem vindo à máquina de transdução! Ao colocar moedas, a máquina irá informar se uma lata de refrigerante irá sair ou não, se for 0, não saíra, caso contrário, será 1 e sairá.")
+        print("As moedas podem ser de 25, 50 ou de 100 centavos, e cada vez que for completado 100 centavos, uma lata de refrigerante sairá.")
+        print("A máquina funciona da seguinte forma: você pode colocar as moedas ou fazer um teste de estresse.")
         print("a. Colocar moedas")
         print("b. Teste de estresse")
         escolha = input("Escolha a opção desejada (a/b): ")
